@@ -1,10 +1,11 @@
 import React from 'react';
 import './index.css';  
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <p className="text-xl font-bold text-blue-500">Hello world</p>
+     <Navbar/>
     </>
   );
 }
